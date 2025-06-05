@@ -9,7 +9,7 @@ const DecrementButton = (props: Buttonprops) => {
     const { onClick } = props; //props.onClick
     console.log('decrementButton');
     return (
-        <button onClick={onClick}>-</button>
+        <button onClick={props.onClick}>-</button>
     );
 }
 
